@@ -1,0 +1,9 @@
+name           = "hiive-demo"
+region         = "us-west-2"
+namespace      = "hiive-demo"
+app_image_tag  = "demo"
+source_image   = "public.ecr.aws/docker/library/nginx:1.27-alpine"
+seed_ecr_image = false
+replicas       = 2
+route53_zone_name = "example.com"
+app_domain_name   = "hiive-demo.example.com"
